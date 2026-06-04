@@ -246,9 +246,29 @@ export default function App() {
         <p>Официальный сайт студии, продуктов и будущей экосистемы.</p>
 
         <div className="footerLinks">
-          <a href="#">Telegram</a>
-          <a href="#">Discord</a>
-          <a href="#">GitHub</a>
+          <a
+            href="https://t.me/DevoriumStudio"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Telegram
+          </a>
+
+          <a
+            href="https://discord.gg/KatJPeNTsw"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Discord
+          </a>
+
+          <a
+            href="https://github.com/HugoPeak-cmd/devorium-site"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
         </div>
       </footer>
     </div>
