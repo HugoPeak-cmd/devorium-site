@@ -1,0 +1,22 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="132" fill="#070A18"></rect>
+  <rect x="1" y="1" width="510" height="510" rx="131" stroke="white" stroke-opacity="0.10" stroke-width="2"></rect>
+
+  <defs>
+    <linearGradient id="g" x1="96" y1="96" x2="416" y2="416" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E5FF"></stop>
+      <stop offset="0.48" stop-color="#7C5CFF"></stop>
+      <stop offset="1" stop-color="#D946EF"></stop>
+    </linearGradient>
+
+    <filter id="glow" x="40" y="40" width="432" height="432" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="18" result="blur"></feGaussianBlur>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.05 0 0 0 0 0.70 0 0 0 0 1 0 0 0 0.35 0"></feColorMatrix>
+      <feBlend in="SourceGraphic"></feBlend>
+    </filter>
+  </defs>
+
+  <path filter="url(#glow)" d="M142 124H264C336 124 386 176 386 256C386 336 336 388 264 388H142V124ZM206 185V327H263C298 327 322 298 322 256C322 214 298 185 263 185H206Z" fill="url(#g)"></path>
+
+  <path d="M112 388L176 124H238L174 388H112Z" fill="url(#g)" opacity="0.9"></path>
+</svg>
